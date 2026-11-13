@@ -86,20 +86,26 @@ Healthy revenue, but profit is leaking in three places
 - Which categories and subcategories generate the most revenue? The most profit?
 <img width="653" height="318" alt="image" src="https://github.com/user-attachments/assets/a6a0bc8c-9386-4cb5-9652-5286b794bff8" />
 
-- MONTHLY REVENUE & PROFIT TREND ACROSS BOTH YEARS WHAT IS SEASONAL, AND WHAT IS GENUINE GROWTH?
+- Monthly revenue & profit trend across both years. What is seasonal, and what is genuine growth?
 <img width="665" height="331" alt="image" src="https://github.com/user-attachments/assets/8bc47c5c-3020-4473-9aa8-8f2d87cc7d0a" />
 
 - Analyze Shopora’s discounting. Is it working?
 <img width="648" height="359" alt="image" src="https://github.com/user-attachments/assets/b0db8305-4858-4235-851a-097c0bb79a02" />
 
-- RETURNS (WHAT ARE RETURNS COSTING THE BUSINESS, AND WHERE ARE THEY CONCENTRATED?)
+- Returns(what are returns costing the business, and where are they concentrated?)
 <img width="649" height="328" alt="image" src="https://github.com/user-attachments/assets/26664a79-964c-43b4-bb28-e894c47cfd92" />
 
--  DELIVERY PROMISE  HOW WELL IS THAT PROMISE KEPT, AND DOES IT MATTER?
+-  Delivery promise  How well is that promise kept, and does it matter?
 <img width="640" height="324" alt="image" src="https://github.com/user-attachments/assets/7a8fb886-e0d4-4870-b2b6-d8760a7edd82" />
 
-- LATE DELIVERY AND BEHAVIOUR DOES ANYTHING IN THE DATA SUGGEST LATE DELIVERY AFFECTS CUSTOMER BEHAVIOUR?
+-  Late delivery and behaviour  Does anything in the data suggest late delivery affects customer behaviour?
 <img width="649" height="325" alt="image" src="https://github.com/user-attachments/assets/a832c81c-b601-466e-beb3-a9cafc0b5a65" />
+
+- Compare the 3 customer segments. Which is worth the most to shopora and why?
+ <img width="647" height="326" alt="image" src="https://github.com/user-attachments/assets/e802613a-f591-4733-aa56-b16cc283baaf" />
+
+ - 
+
 
 
 
