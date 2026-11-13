@@ -110,7 +110,14 @@ Healthy revenue, but profit is leaking in three places
 
 <img width="668" height="317" alt="image" src="https://github.com/user-attachments/assets/bbf6540a-7514-4c0b-bc90-b556a4d2bca9" />
 
+- Which payment methods are growing, and which are not?
+<img width="644" height="307" alt="image" src="https://github.com/user-attachments/assets/4b736c36-07fe-4bfe-9b75-617efe87a74d" />
 
+- Which regions are growing, and which are not?
+<img width="648" height="314" alt="image" src="https://github.com/user-attachments/assets/f4a328fe-129d-4d0a-9499-84b924efff9e" />
+
+- Do heavier discounts mean lower margins?
+<img width="656" height="320" alt="image" src="https://github.com/user-attachments/assets/30058749-99e3-4745-a21f-6a7a8deb7bf6" />
 
 
 
