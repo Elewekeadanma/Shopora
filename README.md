@@ -64,4 +64,17 @@ Data Cleaning Log Manual check: the one duplicate ID with conflicting details is
 | **3** | 6 missing `Unit_Cost` values | Flag records with missing `Unit_Cost` for review |
 | **4** | 3 products have `Unit_Cost` greater than or equal to their selling price | Flag these products for review |
 
-Data Cleaning Log Flagged, not deleted: the 6 missing Unit_Cost and 3 cost >= price products are marked for review
+Data Cleaning Log Flagged, not deleted: the 6 missing Unit_Cost and 3 cost >= price products are marked for review   
+
+## Data Model Overview  
+The Power BI data model was built using Star Schema principles for performance and scalability:
+
+Fact Tables: Orders, Order_Items
+Dimension Tables: Customers, Products
+
+<img width="853" height="399" alt="image" src="https://github.com/user-attachments/assets/a5fa6ab1-e4dd-482d-b975-476675854d4d" />  
+
+All data was transformed using Power Query, and core business calculations were implemented in DAX.
+
+
+
