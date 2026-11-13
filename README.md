@@ -79,8 +79,9 @@ All data was transformed using Power Query, and core business calculations were 
 ### Analytical Approach
 ## Executive Summary  
 Healthy revenue, but profit is leaking in three places
-Healthy revenue, but profit is leaking in three places
-<img width="1416" height="115" alt="image" src="https://github.com/user-attachments/assets/3bc36b52-da18-4b1e-8080-1e49ac7fb5c2" />
+
+<img width="643" height="269" alt="image" src="https://github.com/user-attachments/assets/8c019fdb-675b-4218-9733-145d888753a6" />
+
 
 
 
