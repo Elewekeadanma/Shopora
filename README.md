@@ -43,9 +43,7 @@ Data Cleaning Log  Exclusion: the 91 delivered orders with no delivery date are 
 | **5** | `Quantity` contains negative and zero values (28 lines) and extreme values up to 897 | Flag and exclude invalid or extreme quantities from the analysis and document the exclusion |
 | **6** | 55 `Unit_Price` values are missing | Fill missing values using the product's `List_Price`, which is typically within 1–2% of `Unit_Price` |  
 
-
-
-
+Data Cleaning Log Assumption Logged: blank Returned=No; 28 bad-quantity lines flagged and excluded.
 
 #### Customers: 4 issues cleaned before analysis
 
@@ -55,6 +53,7 @@ Data Cleaning Log  Exclusion: the 91 delivered orders with no delivery date are 
 | **2** | `Region` contains typos and inconsistent formatting such as `Wset`, `Sotuh`, and `NORTH` | Standardise to **5 regions** |
 | **3** | `Age_Group` contains `-`, `Unknown`, and 84 blank values | Combine `-`, `Unknown`, and blanks into **Unknown** |
 | **4** | 15 duplicate customer IDs, including one with conflicting details | Remove duplicate IDs and manually inspect the conflicting record |
+
 Data Cleaning Log Manual check: the one duplicate ID with conflicting details is reviewed by hand before deduping.
 
 #### Products: 4 issues cleaned before analysis
