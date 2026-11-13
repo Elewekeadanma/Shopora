@@ -16,13 +16,8 @@ changes, Shopora could keep growing its sales and still lose money. Someone need
 - Products
 
 ## Data Preparation
-For the Orders table, 6 issues were found and cleaned before analysis
+# Orders table: 6 issues were found and cleaned before analysis
                                                           
-| #  | Problem    |  Fix
-|---------------------------------------------------
-|  1  | 42 exact duplicate rows  | Remove duplicates on Order_ID
-|  2  | Status spelled many 
-
 
 ## Data Quality Issues and Fixes
 
@@ -36,4 +31,38 @@ For the Orders table, 6 issues were found and cleaned before analysis
 | **6** | 515 non-delivered orders have a delivery date, while 91 delivered orders have no delivery date | Per the data dictionary, blank the delivery date unless the status is **Delivered**; exclude the 91 missing delivery dates from the **On-Time Delivery %** calculation |
 
 
+# Order_Items table: 6 issues cleaned before analysis
 
+## Order Line Items – Data Quality Issues and Fixes
+
+| # | Problem | Fix |
+|---|---------|-----|
+| **1** | 118 duplicate lines | Remove duplicates on `Order_Item_ID` |
+| **2** | `Returned` appears in multiple formats: `Yes`, `Y`, `True`, `yes`, `No`, `N`, `False`, `no`, plus 442 blanks | Standardise to **Yes/No**; treat blanks as **No** and document this assumption |
+| **3** | `Return_Reason` contains `-`, case variants, and `Size/Specification Issue`; 48 returned lines have no reason | Replace `-` with null; standardise values to the data dictionary; replace missing reasons with **Not Recorded**; determine how to handle **Changed Mind**, which exists in the data but not in the dictionary |
+| **4** | `Discount` is mostly between 0–0.60, but ~120 rows contain whole numbers such as `5`, `10`, and `50` | If the value is greater than `1`, divide it by `100` |
+| **5** | `Quantity` contains negative and zero values (28 lines) and extreme values up to 897 | Flag and exclude invalid or extreme quantities from the analysis and document the exclusion |
+| **6** | 55 `Unit_Price` values are missing | Fill missing values using the product's `List_Price`, which is typically within 1–2% of `Unit_Price` |
+
+Assumptions logged: blank returned=No; 28 bad-quality lines flagged and excluded
+
+## Customer Data – Data Quality Issues and Fixes
+Customers: 4 issues cleaned before analysis
+
+| # | Problem | Fix |
+|---|---------|-----|
+| **1** | `Segment` contains inconsistent variants such as `Repeat Customer` and `NEW CUSTOMER` | Standardise to **New / Returning / Premium** |
+| **2** | `Region` contains typos and inconsistent formatting such as `Wset`, `Sotuh`, and `NORTH` | Standardise to **5 regions** |
+| **3** | `Age_Group` contains `-`, `Unknown`, and 84 blank values | Combine `-`, `Unknown`, and blanks into **Unknown** |
+| **4** | 15 duplicate customer IDs, including one with conflicting details | Remove duplicate IDs and manually inspect the conflicting record |
+Data Cleaning Log Manual check: the one duplicate ID with conflicting details is reviewed by hand before deduping.
+## Product Data – Data Quality Issues and Fixes
+Products: 4 issues cleaned before analysis
+| # | Problem | Fix |
+|---|---------|-----|
+| **1** | `Category` contains inconsistent casing, such as `fashion` | Standardise category casing |
+| **2** | 5 duplicate `SKU` values | Remove duplicate SKUs |
+| **3** | 6 missing `Unit_Cost` values | Flag records with missing `Unit_Cost` for review |
+| **4** | 3 products have `Unit_Cost` greater than or equal to their selling price | Flag these products for review |
+
+Data Cleaning Log Flagged, not deleted: the 6 missing Unit_Cost and 3 cost >= price products are marked for review
