@@ -34,3 +34,6 @@ For the Orders table, 6 issues were found and cleaned before analysis
 | **4** | `Order_Date` and `Actual_Delivery_Date` mix real dates with text formats such as `16/01/2024` and `02.01.2024` (day first) | Parse text as **UK dates (DD/MM/YYYY)**, then set the data type to **Date** |
 | **5** | `Shipping_Cost` contains text values such as `£3.46`, 14 negative values, and 166 blanks | Remove the `£` symbol, investigate negative values, and determine how blanks should be handled |
 | **6** | 515 non-delivered orders have a delivery date, while 91 delivered orders have no delivery date | Per the data dictionary, blank the delivery date unless the status is **Delivered**; exclude the 91 missing delivery dates from the **On-Time Delivery %** calculation |
+
+
+
