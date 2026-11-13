@@ -7,6 +7,8 @@ Shopora tries to win customers with low prices and a wide choice. Price cuts run
 Shopora is selling more every year, but keeping less and less of the money it makes. Big discounts, too many returns and late deliveries are all eating into what is left. If nothing
 changes, Shopora could keep growing its sales and still lose money. Someone needs to look at the data, find out what is really going wrong, and say clearly what to fix.
 
+Link to Power BI dashboard  
+https://app.powerbi.com/groups/me/apps/ae768be6-2d1a-414d-a74f-eaac37fbd9b4/reports/73cef73b-fb49-49f7-9f2b-817986801b6b/76e096ff50621a241200?ctid=ff0f3e3a-3e53-454f-b2b5-6c68753b8ee4&experience=power-bi
 
 ## Data Source
 4 tables were used for this analysis
@@ -118,6 +120,39 @@ Healthy revenue, but profit is leaking in three places
 
 - Do heavier discounts mean lower margins?
 <img width="656" height="320" alt="image" src="https://github.com/user-attachments/assets/30058749-99e3-4745-a21f-6a7a8deb7bf6" />
+
+# Management Recommendations  
+Four priorities to turn revenue into retained profit  
+1.  Protect Margin
+ Introduce discount controls based on profitability rather than sales volume. Pay particular attention to categories with high discounts or low margins.
+
+2. Reduce Preventable Returns
+Prioritize Size Issue and Not as Expected returns. Start with Clothing, Bags, Shoes and Accessories.
+
+3. Fix Delivery Performance
+A 60.79% on-time rate is a major operational weakness. Identify poor-performing regions and carriers, and improve delivery-date accuracy.
+
+4. Protect High-Value Customers
+Premium customers lead on revenue, profit, revenue/customer, profit/customer and orders/customer. Retention should be a strategic priority.
+
+Overview Dashboard
+
+<img width="777" height="464" alt="image" src="https://github.com/user-attachments/assets/b2c39828-3cd6-44bc-aaa6-f31756af31ff" />
+
+Products and Discounts Dashboard
+<img width="775" height="467" alt="image" src="https://github.com/user-attachments/assets/0a739442-d097-4581-be23-9d19f711289e" />
+
+Returns and Delivery Dashboard  
+<img width="755" height="430" alt="image" src="https://github.com/user-attachments/assets/91e4d55f-388b-4c26-9c74-aa748dd9a7c5" />
+
+Customers Dashboard
+<img width="812" height="546" alt="image" src="https://github.com/user-attachments/assets/c9961eb3-19b0-4f0d-9e38-032390162c57" />
+
+High and Bottom Performers Dashboard  
+<img width="824" height="541" alt="image" src="https://github.com/user-attachments/assets/f06c8bee-7a00-4202-b389-2a8d517f5741" />
+
+
+
 
 
 
