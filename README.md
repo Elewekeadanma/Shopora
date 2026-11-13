@@ -17,7 +17,7 @@ changes, Shopora could keep growing its sales and still lose money. Someone need
 
 ## Data Preparation
 
-# Orders table: 6 issues were found and cleaned before analysis
+#### Orders table: 6 issues were found and cleaned before analysis
                                                           
 
 | # | Problem | Fix |
