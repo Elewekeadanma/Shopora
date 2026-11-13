@@ -67,14 +67,22 @@ Data Cleaning Log Manual check: the one duplicate ID with conflicting details is
 Data Cleaning Log Flagged, not deleted: the 6 missing Unit_Cost and 3 cost >= price products are marked for review   
 
 ## Data Model Overview  
-The Power BI data model was built using Star Schema principles for performance and scalability:
+The Power BI data model was built using two fact tables and three dimension tables
 
-Fact Tables: Orders, Order_Items
-Dimension Tables: Customers, Products
+Fact Tables: Orders, Order_Items  
+Dimension Tables: Customers, Products, Date
 
 <img width="853" height="399" alt="image" src="https://github.com/user-attachments/assets/a5fa6ab1-e4dd-482d-b975-476675854d4d" />  
 
-All data was transformed using Power Query, and core business calculations were implemented in DAX.
+All data was transformed using Power Query, and core business calculations were implemented in DAX.  
+
+### Analytical Approach
+## Executive Summary  
+Healthy revenue, but profit is leaking in three places
+Healthy revenue, but profit is leaking in three places
+<img width="1416" height="115" alt="image" src="https://github.com/user-attachments/assets/3bc36b52-da18-4b1e-8080-1e49ac7fb5c2" />
+
+
 
 
 
