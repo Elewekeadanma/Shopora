@@ -80,7 +80,12 @@ All data was transformed using Power Query, and core business calculations were 
 ## Executive Summary  
 Healthy revenue, but profit is leaking in three places
 
-<img width="643" height="269" alt="image" src="https://github.com/user-attachments/assets/8c019fdb-675b-4218-9733-145d888753a6" />
+<img width="659" height="269" alt="image" src="https://github.com/user-attachments/assets/91025e79-52e2-4227-8c4d-35a3408088f4" />
+
+Problems Identified  
+ Which categories and subcategories generate the most revenue? The most profit?
+<img width="653" height="318" alt="image" src="https://github.com/user-attachments/assets/a6a0bc8c-9386-4cb5-9652-5286b794bff8" />
+
 
 
 
