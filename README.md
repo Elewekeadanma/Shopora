@@ -19,8 +19,6 @@ changes, Shopora could keep growing its sales and still lose money. Someone need
 # Orders table: 6 issues were found and cleaned before analysis
                                                           
 
-## Data Quality Issues and Fixes
-
 | # | Problem | Fix |
 |---|---------|-----|
 | **1** | 42 exact duplicate rows | Remove duplicates on `Order_ID` |
@@ -30,10 +28,9 @@ changes, Shopora could keep growing its sales and still lose money. Someone need
 | **5** | `Shipping_Cost` contains text values such as `£3.46`, 14 negative values, and 166 blanks | Remove the `£` symbol, investigate negative values, and determine how blanks should be handled |
 | **6** | 515 non-delivered orders have a delivery date, while 91 delivered orders have no delivery date | Per the data dictionary, blank the delivery date unless the status is **Delivered**; exclude the 91 missing delivery dates from the **On-Time Delivery %** calculation |
 
+Data Cleaning Log  Exclusion: the 91 delivered orders with no delivery date are left out of the on-time % calculation.
 
 # Order_Items table: 6 issues cleaned before analysis
-
-## Order Line Items – Data Quality Issues and Fixes
 
 | # | Problem | Fix |
 |---|---------|-----|
@@ -44,10 +41,10 @@ changes, Shopora could keep growing its sales and still lose money. Someone need
 | **5** | `Quantity` contains negative and zero values (28 lines) and extreme values up to 897 | Flag and exclude invalid or extreme quantities from the analysis and document the exclusion |
 | **6** | 55 `Unit_Price` values are missing | Fill missing values using the product's `List_Price`, which is typically within 1–2% of `Unit_Price` |
 
-Assumptions logged: blank returned=No; 28 bad-quality lines flagged and excluded
+Data Cleaning Log Assumptions logged: blank returned=No; 28 bad-quality lines flagged and excluded
 
-## Customer Data – Data Quality Issues and Fixes
-Customers: 4 issues cleaned before analysis
+
+# Customers: 4 issues cleaned before analysis
 
 | # | Problem | Fix |
 |---|---------|-----|
@@ -56,8 +53,8 @@ Customers: 4 issues cleaned before analysis
 | **3** | `Age_Group` contains `-`, `Unknown`, and 84 blank values | Combine `-`, `Unknown`, and blanks into **Unknown** |
 | **4** | 15 duplicate customer IDs, including one with conflicting details | Remove duplicate IDs and manually inspect the conflicting record |
 Data Cleaning Log Manual check: the one duplicate ID with conflicting details is reviewed by hand before deduping.
-## Product Data – Data Quality Issues and Fixes
-Products: 4 issues cleaned before analysis
+
+# Products: 4 issues cleaned before analysis
 | # | Problem | Fix |
 |---|---------|-----|
 | **1** | `Category` contains inconsistent casing, such as `fashion` | Standardise category casing |
