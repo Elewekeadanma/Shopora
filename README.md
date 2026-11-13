@@ -92,6 +92,14 @@ Healthy revenue, but profit is leaking in three places
 - Analyze Shopora’s discounting. Is it working?
 <img width="648" height="359" alt="image" src="https://github.com/user-attachments/assets/b0db8305-4858-4235-851a-097c0bb79a02" />
 
+- RETURNS (WHAT ARE RETURNS COSTING THE BUSINESS, AND WHERE ARE THEY CONCENTRATED?)
+<img width="649" height="328" alt="image" src="https://github.com/user-attachments/assets/26664a79-964c-43b4-bb28-e894c47cfd92" />
+
+-  DELIVERY PROMISE  HOW WELL IS THAT PROMISE KEPT, AND DOES IT MATTER?
+<img width="640" height="324" alt="image" src="https://github.com/user-attachments/assets/7a8fb886-e0d4-4870-b2b6-d8760a7edd82" />
+
+- LATE DELIVERY AND BEHAVIOUR DOES ANYTHING IN THE DATA SUGGEST LATE DELIVERY AFFECTS CUSTOMER BEHAVIOUR?
+<img width="649" height="325" alt="image" src="https://github.com/user-attachments/assets/a832c81c-b601-466e-beb3-a9cafc0b5a65" />
 
 
 
