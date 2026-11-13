@@ -82,9 +82,17 @@ Healthy revenue, but profit is leaking in three places
 
 <img width="659" height="269" alt="image" src="https://github.com/user-attachments/assets/91025e79-52e2-4227-8c4d-35a3408088f4" />
 
-Problems Identified  
- Which categories and subcategories generate the most revenue? The most profit?
+## Problems Identified  
+- Which categories and subcategories generate the most revenue? The most profit?
 <img width="653" height="318" alt="image" src="https://github.com/user-attachments/assets/a6a0bc8c-9386-4cb5-9652-5286b794bff8" />
+
+- MONTHLY REVENUE & PROFIT TREND ACROSS BOTH YEARS WHAT IS SEASONAL, AND WHAT IS GENUINE GROWTH?
+<img width="665" height="331" alt="image" src="https://github.com/user-attachments/assets/8bc47c5c-3020-4473-9aa8-8f2d87cc7d0a" />
+
+- Analyze Shopora’s discounting. Is it working?
+<img width="648" height="359" alt="image" src="https://github.com/user-attachments/assets/b0db8305-4858-4235-851a-097c0bb79a02" />
+
+
 
 
 
