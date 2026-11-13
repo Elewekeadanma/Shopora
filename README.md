@@ -40,7 +40,7 @@ Data Cleaning Log  Exclusion: the 91 delivered orders with no delivery date are 
 | **4** | `Discount` is mostly between 0–0.60, but ~120 rows contain whole numbers such as `5`, `10`, and `50` | If the value is greater than `1`, divide it by `100` |
 | **5** | `Quantity` contains negative and zero values (28 lines) and extreme values up to 897 | Flag and exclude invalid or extreme quantities from the analysis and document the exclusion |
 | **6** | 55 `Unit_Price` values are missing | Fill missing values using the product's `List_Price`, which is typically within 1–2% of `Unit_Price` |  
-Data Cleaning Log Assumptions logged: blank returned=No; 28 bad-quality lines flagged and excluded
+
 
 
 
