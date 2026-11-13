@@ -104,7 +104,12 @@ Healthy revenue, but profit is leaking in three places
 - Compare the 3 customer segments. Which is worth the most to shopora and why?
  <img width="647" height="326" alt="image" src="https://github.com/user-attachments/assets/e802613a-f591-4733-aa56-b16cc283baaf" />
 
- - 
+ - Are there products or subcategories the business would be better off without?
+<img width="646" height="325" alt="image" src="https://github.com/user-attachments/assets/f4aea6d0-794f-4a34-97ae-4166ebffbbee" />
+
+
+<img width="668" height="317" alt="image" src="https://github.com/user-attachments/assets/bbf6540a-7514-4c0b-bc90-b556a4d2bca9" />
+
 
 
 
