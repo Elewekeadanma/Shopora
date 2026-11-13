@@ -31,7 +31,7 @@ changes, Shopora could keep growing its sales and still lose money. Someone need
 
 Data Cleaning Log  Exclusion: the 91 delivered orders with no delivery date are left out of the on-time % calculation.
 
-# Order_Items table: 6 issues cleaned before analysis
+#### Order_Items table: 6 issues cleaned before analysis
 
 | # | Problem | Fix |
 |---|---------|-----|
@@ -45,7 +45,7 @@ Data Cleaning Log  Exclusion: the 91 delivered orders with no delivery date are 
 Data Cleaning Log Assumptions logged: blank returned=No; 28 bad-quality lines flagged and excluded
 
 
-# Customers: 4 issues cleaned before analysis
+#### Customers: 4 issues cleaned before analysis
 
 | # | Problem | Fix |
 |---|---------|-----|
@@ -55,7 +55,7 @@ Data Cleaning Log Assumptions logged: blank returned=No; 28 bad-quality lines fl
 | **4** | 15 duplicate customer IDs, including one with conflicting details | Remove duplicate IDs and manually inspect the conflicting record |
 Data Cleaning Log Manual check: the one duplicate ID with conflicting details is reviewed by hand before deduping.
 
-# Products: 4 issues cleaned before analysis
+#### Products: 4 issues cleaned before analysis
 | # | Problem | Fix |
 |---|---------|-----|
 | **1** | `Category` contains inconsistent casing, such as `fashion` | Standardise category casing |
