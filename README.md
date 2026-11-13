@@ -29,7 +29,6 @@ changes, Shopora could keep growing its sales and still lose money. Someone need
 | **5** | `Shipping_Cost` contains text values such as `£3.46`, 14 negative values, and 166 blanks | Remove the `£` symbol, investigate negative values, and determine how blanks should be handled |
 | **6** | 515 non-delivered orders have a delivery date, while 91 delivered orders have no delivery date | Per the data dictionary, blank the delivery date unless the status is **Delivered**; exclude the 91 missing delivery dates from the **On-Time Delivery %** calculation |
 
-Data Cleaning Log  Exclusion: the 91 delivered orders with no delivery date are left out of the on-time % calculation.
 
 #### Order_Items table: 6 issues cleaned before analysis
 
